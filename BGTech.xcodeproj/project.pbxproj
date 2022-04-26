@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		EC28783227FB148A00A83150 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC28783127FB148A00A83150 /* RegisterViewController.swift */; };
+		EC467A692805043E00C4B325 /* WorkAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC467A682805043E00C4B325 /* WorkAddViewController.swift */; };
+		EC467A6B28075AB000C4B325 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC467A6A28075AB000C4B325 /* ListViewController.swift */; };
+		EC467A6D28075FEE00C4B325 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC467A6C28075FEE00C4B325 /* ListTableViewCell.swift */; };
 		ECD5386A27FADAB700696121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD5386927FADAB700696121 /* AppDelegate.swift */; };
 		ECD5386C27FADAB700696121 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD5386B27FADAB700696121 /* SceneDelegate.swift */; };
 		ECD5386E27FADAB700696121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD5386D27FADAB700696121 /* ViewController.swift */; };
@@ -19,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		EC28783127FB148A00A83150 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EC467A682805043E00C4B325 /* WorkAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkAddViewController.swift; sourceTree = "<group>"; };
+		EC467A6A28075AB000C4B325 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		EC467A6C28075FEE00C4B325 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		ECD5386627FADAB700696121 /* BGTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BGTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD5386927FADAB700696121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECD5386B27FADAB700696121 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,11 +67,14 @@
 		ECD5386827FADAB700696121 /* BGTech */ = {
 			isa = PBXGroup;
 			children = (
+				EC467A682805043E00C4B325 /* WorkAddViewController.swift */,
 				ECD5386927FADAB700696121 /* AppDelegate.swift */,
 				ECD5386B27FADAB700696121 /* SceneDelegate.swift */,
 				ECD5386D27FADAB700696121 /* ViewController.swift */,
 				EC28783127FB148A00A83150 /* RegisterViewController.swift */,
 				ECD5386F27FADAB700696121 /* Main.storyboard */,
+				EC467A6A28075AB000C4B325 /* ListViewController.swift */,
+				EC467A6C28075FEE00C4B325 /* ListTableViewCell.swift */,
 				ECD5387227FADABA00696121 /* Assets.xcassets */,
 				ECD5387427FADABA00696121 /* LaunchScreen.storyboard */,
 				ECD5387727FADABA00696121 /* Info.plist */,
@@ -145,7 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC467A6D28075FEE00C4B325 /* ListTableViewCell.swift in Sources */,
+				EC467A692805043E00C4B325 /* WorkAddViewController.swift in Sources */,
 				ECD5386E27FADAB700696121 /* ViewController.swift in Sources */,
+				EC467A6B28075AB000C4B325 /* ListViewController.swift in Sources */,
 				ECD5386A27FADAB700696121 /* AppDelegate.swift in Sources */,
 				ECD5386C27FADAB700696121 /* SceneDelegate.swift in Sources */,
 				EC28783227FB148A00A83150 /* RegisterViewController.swift in Sources */,
