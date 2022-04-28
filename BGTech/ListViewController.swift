@@ -12,10 +12,15 @@ class ListViewController: UIViewController {
     @IBOutlet weak var headerLabel: UILabel!
     @IBOutlet weak var tableView: UITableView!
     
+    var pickerData: [String] = ["Sprint1","Sprint2","Sprint3","Sprint4","Sprint5","Sprint6"]
     var dataSource: [String] = ["hllhjkh hh kjklkjlk kjk asdfasdf qwel k hll","uzunuzunuzunuzun uzun uzun uzun uzu nuzun uzunuzun  uzun uzunuzun uzunu zun uzun uzun uzun uzun uzunu zunu zunuzun  uzun uz unuzun uzun uzun uzun uzunuz unuzunuzun  uzun uzun uzun uzun uzun uzun uzunuzun", "uzunuzunuzu nuzun uzun uzun uzun uzunu zunuzunuzun  uzun uzunuzun uzunuzunuzun uzun uzun uzun uzunuzunuzunuzun  uzun uz unuzun uzun uzun uzun uzunuzunuzunuzun  uzun uzun uzun uzun uzun uzun uzunuzun", "uzunuzunuzunuzun uzun uzun uzun uzunuzunuzunuzun  uzun uzunuzun uzunuzunuzun uzun uzun uzun uzunuzunuzunuzun  uzun uz unuzun uzun uzun uzun uzunuzunuzunuzun  uzun uzun uzun uzun uzun uzun uzunuzun", "kısa", "kısa"]
+    
+    var pickerView = UIPickerView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        
         tableView.estimatedRowHeight = 100.0
         tableView.rowHeight = UITableView.automaticDimension
     }

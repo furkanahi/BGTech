@@ -18,6 +18,7 @@
 		ECD5387327FADABA00696121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD5387227FADABA00696121 /* Assets.xcassets */; };
 		ECD5387627FADABA00696121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD5387427FADABA00696121 /* LaunchScreen.storyboard */; };
 		ECD5387E27FAE7C400696121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD5387D27FAE7C400696121 /* Assets.xcassets */; };
+		ECEB4BBB281A7167005ED260 /* NewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEB4BBA281A7167005ED260 /* NewListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		ECD5387527FADABA00696121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECD5387727FADABA00696121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECD5387D27FAE7C400696121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECEB4BBA281A7167005ED260 /* NewListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				ECD5386D27FADAB700696121 /* ViewController.swift */,
 				EC28783127FB148A00A83150 /* RegisterViewController.swift */,
 				ECD5386F27FADAB700696121 /* Main.storyboard */,
+				ECEB4BBA281A7167005ED260 /* NewListViewController.swift */,
 				EC467A6A28075AB000C4B325 /* ListViewController.swift */,
 				EC467A6C28075FEE00C4B325 /* ListTableViewCell.swift */,
 				ECD5387227FADABA00696121 /* Assets.xcassets */,
@@ -157,6 +160,7 @@
 				EC467A6D28075FEE00C4B325 /* ListTableViewCell.swift in Sources */,
 				EC467A692805043E00C4B325 /* WorkAddViewController.swift in Sources */,
 				ECD5386E27FADAB700696121 /* ViewController.swift in Sources */,
+				ECEB4BBB281A7167005ED260 /* NewListViewController.swift in Sources */,
 				EC467A6B28075AB000C4B325 /* ListViewController.swift in Sources */,
 				ECD5386A27FADAB700696121 /* AppDelegate.swift in Sources */,
 				ECD5386C27FADAB700696121 /* SceneDelegate.swift in Sources */,
