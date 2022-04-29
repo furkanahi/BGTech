@@ -12,7 +12,7 @@ class ListTableViewCell: UITableViewCell {
     @IBOutlet weak var workCode: UILabel!
     @IBOutlet weak var workCode2: UILabel!
     @IBOutlet weak var definition: UILabel!
-    @IBOutlet weak var definitionText: UITextField!
+    @IBOutlet weak var definition2: UILabel!
     @IBOutlet weak var sp: UILabel!
     @IBOutlet weak var spText: UITextField!
     @IBOutlet weak var normalizedSp: UILabel!
@@ -28,5 +28,11 @@ class ListTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+
+        contentView.frame = contentView.frame.inset(by: UIEdgeInsets(top: 10, left: 0, bottom: 10, right: 0))
     }
 }
